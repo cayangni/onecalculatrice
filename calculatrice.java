@@ -21,7 +21,7 @@ public class calculatrice
 		System.out.println("Merci . A plus !");
 	}
 
-	public static void presentation(String testeur)
+	public static void presentation()
 	{
 		System.out.println("");
 		System.out.println("");
