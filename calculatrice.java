@@ -14,7 +14,7 @@ public class calculatrice
 		signe = '+';
 		a = b = result = 0;
 
-		presentation(nom);
+		presentation();
 		result = calcul(signe, a, b);
 		
 		System.out.println("Le resultat est : "+result+" !");
