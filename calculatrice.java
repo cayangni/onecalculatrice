@@ -5,16 +5,11 @@ public class calculatrice
 { 
 	public static void main(String[] args)
 	{ 
-		String nom;
 		char signe;
 		double a,b,result;
 
 		System.out.println("");
 		System.out.println("");
-
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Veuillez saisir votre nom :");
-		nom = sc.nextLine();
 
 		signe = '+';
 		a = b = result = 0;
@@ -23,7 +18,7 @@ public class calculatrice
 		result = calcul(signe, a, b);
 		
 		System.out.println("Le resultat est : "+result+" !");
-		System.out.println("Merci "+nom+". A plus !");
+		System.out.println("Merci . A plus !");
 	}
 
 	public static void presentation(String testeur)
@@ -35,8 +30,6 @@ public class calculatrice
 		System.out.println("");
 		System.out.println("");
 
-		System.out.println("Salut "+testeur+" !");
-		System.out.println("");
 	}
 
 	public static double calcul(char p, double x, double y)
