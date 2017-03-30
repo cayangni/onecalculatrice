@@ -11,7 +11,7 @@ public class calculatrice
 		System.out.println("");
 		System.out.println("");
 
-		nom = "Le Testeur;
+		nom = "Le Testeur";
 
 		signe = '+';
 		a = b = result = 0;
@@ -42,7 +42,7 @@ public class calculatrice
 
 		 Random car = new Random();
 	    	String op = "+-*/";
-	    	p = alphabet.charAt(r.nextInt(alphabet.length())));
+	    	p = alphabet.charAt(r.nextInt(alphabet.length()));
 
 		Random r1 = new Random();
 		x = rn.nextInt(100) + 1;
