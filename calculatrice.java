@@ -45,10 +45,10 @@ public class calculatrice
 	    	p = op.charAt(cart.nextInt(op.length()));
 
 		Random r1 = new Random();
-		x = rn.nextInt(100) + 1;
+		x = r1.nextInt(100) + 1;
 
 		Random r2 = new Random();
-		y = rn.nextInt(100) + 1;
+		y = r2.nextInt(100) + 1;
 		
 		switch(p) 
 		{
