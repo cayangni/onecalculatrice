@@ -40,9 +40,9 @@ public class calculatrice
 	{
 		double r=0;
 
-		 Random car = new Random();
+		Random cart = new Random();
 	    	String op = "+-*/";
-	    	p = alphabet.charAt(r.nextInt(alphabet.length()));
+	    	p = op.charAt(cart.nextInt(op.length()));
 
 		Random r1 = new Random();
 		x = rn.nextInt(100) + 1;
