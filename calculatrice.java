@@ -40,7 +40,8 @@ public class calculatrice
 	{
 		double r=0;
 		
-		System.out.println("Choisi aléatoirement, les paramètres de la calculatrice (signe, x, y) sont : ");
+		System.out.println("[Choisi aleatoirement, les parametres de la calculatrice (signe, x, y)]");
+		System.out.println("ce tirage nous donne : ");
 		
 		Random cart = new Random();
 	    	String op = "+-*/";
